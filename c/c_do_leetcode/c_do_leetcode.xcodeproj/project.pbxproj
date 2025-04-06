@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
+		AAA466422DA2971700E4112A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		AAA9BB002DA20DDE002DD156 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -19,10 +28,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AAA466442DA2971700E4112A /* 02_704. 二分查找 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02_704. 二分查找"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA9BB022DA20DDE002DD156 /* 01_234. 回文链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01_234. 回文链表"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		AAA466452DA2971700E4112A /* 02_704. 二分查找 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "02_704. 二分查找";
+			sourceTree = "<group>";
+		};
 		AAA9BB032DA20DDE002DD156 /* 01_234. 回文链表 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "01_234. 回文链表";
@@ -31,6 +46,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AAA466412DA2971700E4112A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AAA9BAFF2DA20DDE002DD156 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -45,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				AAA9BB032DA20DDE002DD156 /* 01_234. 回文链表 */,
+				AAA466452DA2971700E4112A /* 02_704. 二分查找 */,
 				AAA9BAF32DA20C76002DD156 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				AAA9BB022DA20DDE002DD156 /* 01_234. 回文链表 */,
+				AAA466442DA2971700E4112A /* 02_704. 二分查找 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +84,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AAA466432DA2971700E4112A /* 02_704. 二分查找 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAA4664A2DA2971700E4112A /* Build configuration list for PBXNativeTarget "02_704. 二分查找" */;
+			buildPhases = (
+				AAA466402DA2971700E4112A /* Sources */,
+				AAA466412DA2971700E4112A /* Frameworks */,
+				AAA466422DA2971700E4112A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AAA466452DA2971700E4112A /* 02_704. 二分查找 */,
+			);
+			name = "02_704. 二分查找";
+			packageProductDependencies = (
+			);
+			productName = "02_704. 二分查找";
+			productReference = AAA466442DA2971700E4112A /* 02_704. 二分查找 */;
+			productType = "com.apple.product-type.tool";
+		};
 		AAA9BB012DA20DDE002DD156 /* 01_234. 回文链表 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAA9BB082DA20DDE002DD156 /* Build configuration list for PBXNativeTarget "01_234. 回文链表" */;
@@ -91,6 +137,9 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					AAA466432DA2971700E4112A = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					AAA9BB012DA20DDE002DD156 = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -111,11 +160,19 @@
 			projectRoot = "";
 			targets = (
 				AAA9BB012DA20DDE002DD156 /* 01_234. 回文链表 */,
+				AAA466432DA2971700E4112A /* 02_704. 二分查找 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AAA466402DA2971700E4112A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AAA9BAFE2DA20DDE002DD156 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -126,6 +183,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		AAA466482DA2971700E4112A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WZA497Y6EH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAA466492DA2971700E4112A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WZA497Y6EH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		AAA9BAF72DA20C76002DD156 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -264,6 +341,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AAA4664A2DA2971700E4112A /* Build configuration list for PBXNativeTarget "02_704. 二分查找" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAA466482DA2971700E4112A /* Debug */,
+				AAA466492DA2971700E4112A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AAA9BAED2DA20C76002DD156 /* Build configuration list for PBXProject "c_do_leetcode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
