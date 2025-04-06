@@ -50,3 +50,83 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+# Python 相关
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+venv/
+env/
+.venv/
+ENV/
+Pipfile.lock
+requirements.txt.lock
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.ipynb_checkpoints/
+
+# JavaScript 相关
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+*.min.js
+*.min.css
+coverage/
+*.lcov
+
+# C 相关
+*.o          # 目标文件
+*.a          # 静态库
+*.out        # 可执行文件
+*.exe        # Windows 可执行文件
+*.dll        # 动态链接库
+*.lib        # 静态库 (Windows)
+*.so         # 共享对象文件 (Linux)
+*.dylib      # 动态库 (macOS)
+*.gcno       # gcov 覆盖率文件
+*.gcda       # gcov 数据文件
+*.gcov       # gcov 输出文件
+core         # 核心转储文件
+
+# 构建和临时文件（通用）
+dist/
+build/
+*.bak
+*.swp
+*.tmp
+*.cache
+
+# 日志文件（通用）
+*.log
+logs/
+
+# 环境变量文件（JavaScript 常用，但也可能用于其他语言）
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE 和编辑器相关（通用）
+.idea/           # JetBrains IDE (PyCharm, WebStorm 等)
+.vscode/         # VS Code
+*.sublime-workspace
+
+# 操作系统生成的文件（通用）
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# 其他常见忽略（通用）
+*.db
