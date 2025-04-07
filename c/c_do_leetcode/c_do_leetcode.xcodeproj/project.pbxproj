@@ -52,6 +52,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		AAAADF772DA36A9D00E0B775 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +69,7 @@
 		AAA9BB022DA20DDE002DD156 /* 01_234. 回文链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01_234. 回文链表"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAAADF632DA3557A00E0B775 /* 04_141. 环形链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "04_141. 环形链表"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAAADF6E2DA360E900E0B775 /* 05_142. 环形链表 II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05_142. 环形链表 II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAAADF792DA36A9D00E0B775 /* 06_21. 合并两个有序链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "06_21. 合并两个有序链表"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -86,6 +96,11 @@
 		AAAADF6F2DA360E900E0B775 /* 05_142. 环形链表 II */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "05_142. 环形链表 II";
+			sourceTree = "<group>";
+		};
+		AAAADF7A2DA36A9D00E0B775 /* 06_21. 合并两个有序链表 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "06_21. 合并两个有序链表";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -126,6 +141,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AAAADF762DA36A9D00E0B775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -137,6 +159,7 @@
 				AAA466502DA2A76600E4112A /* 03_50. Pow(x, n) */,
 				AAAADF642DA3557A00E0B775 /* 04_141. 环形链表 */,
 				AAAADF6F2DA360E900E0B775 /* 05_142. 环形链表 II */,
+				AAAADF7A2DA36A9D00E0B775 /* 06_21. 合并两个有序链表 */,
 				AAA9BAF32DA20C76002DD156 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -149,6 +172,7 @@
 				AAA4664F2DA2A76600E4112A /* 03_50. Pow(x, n) */,
 				AAAADF632DA3557A00E0B775 /* 04_141. 环形链表 */,
 				AAAADF6E2DA360E900E0B775 /* 05_142. 环形链表 II */,
+				AAAADF792DA36A9D00E0B775 /* 06_21. 合并两个有序链表 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -266,6 +290,28 @@
 			productReference = AAAADF6E2DA360E900E0B775 /* 05_142. 环形链表 II */;
 			productType = "com.apple.product-type.tool";
 		};
+		AAAADF782DA36A9D00E0B775 /* 06_21. 合并两个有序链表 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAAADF7D2DA36A9D00E0B775 /* Build configuration list for PBXNativeTarget "06_21. 合并两个有序链表" */;
+			buildPhases = (
+				AAAADF752DA36A9D00E0B775 /* Sources */,
+				AAAADF762DA36A9D00E0B775 /* Frameworks */,
+				AAAADF772DA36A9D00E0B775 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AAAADF7A2DA36A9D00E0B775 /* 06_21. 合并两个有序链表 */,
+			);
+			name = "06_21. 合并两个有序链表";
+			packageProductDependencies = (
+			);
+			productName = "06_21. 合并两个有序链表";
+			productReference = AAAADF792DA36A9D00E0B775 /* 06_21. 合并两个有序链表 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -290,6 +336,9 @@
 					AAAADF6D2DA360E900E0B775 = {
 						CreatedOnToolsVersion = 16.2;
 					};
+					AAAADF782DA36A9D00E0B775 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 				};
 			};
 			buildConfigurationList = AAA9BAED2DA20C76002DD156 /* Build configuration list for PBXProject "c_do_leetcode" */;
@@ -311,6 +360,7 @@
 				AAA4664E2DA2A76600E4112A /* 03_50. Pow(x, n) */,
 				AAAADF622DA3557A00E0B775 /* 04_141. 环形链表 */,
 				AAAADF6D2DA360E900E0B775 /* 05_142. 环形链表 II */,
+				AAAADF782DA36A9D00E0B775 /* 06_21. 合并两个有序链表 */,
 			);
 		};
 /* End PBXProject section */
@@ -345,6 +395,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		AAAADF6A2DA360E900E0B775 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAAADF752DA36A9D00E0B775 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -569,6 +626,26 @@
 			};
 			name = Release;
 		};
+		AAAADF7E2DA36A9D00E0B775 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WZA497Y6EH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAAADF7F2DA36A9D00E0B775 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WZA497Y6EH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -622,6 +699,15 @@
 			buildConfigurations = (
 				AAAADF732DA360E900E0B775 /* Debug */,
 				AAAADF742DA360E900E0B775 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAAADF7D2DA36A9D00E0B775 /* Build configuration list for PBXNativeTarget "06_21. 合并两个有序链表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAAADF7E2DA36A9D00E0B775 /* Debug */,
+				AAAADF7F2DA36A9D00E0B775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
