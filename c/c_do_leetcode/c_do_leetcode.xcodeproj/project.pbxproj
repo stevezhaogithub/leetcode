@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
+		AA3104672DA67296002EBA2B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		AAA466422DA2971700E4112A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -64,6 +73,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA3104692DA67296002EBA2B /* 07_144. 二叉树的前序遍历 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "07_144. 二叉树的前序遍历"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA466442DA2971700E4112A /* 02_704. 二分查找 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02_704. 二分查找"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA4664F2DA2A76600E4112A /* 03_50. Pow(x, n) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "03_50. Pow(x, n)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAA9BB022DA20DDE002DD156 /* 01_234. 回文链表 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01_234. 回文链表"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +83,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		AA31046A2DA67296002EBA2B /* 07_144. 二叉树的前序遍历 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "07_144. 二叉树的前序遍历";
+			sourceTree = "<group>";
+		};
 		AAA466452DA2971700E4112A /* 02_704. 二分查找 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "02_704. 二分查找";
@@ -106,6 +121,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		AA3104662DA67296002EBA2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AAA466412DA2971700E4112A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -160,6 +182,7 @@
 				AAAADF642DA3557A00E0B775 /* 04_141. 环形链表 */,
 				AAAADF6F2DA360E900E0B775 /* 05_142. 环形链表 II */,
 				AAAADF7A2DA36A9D00E0B775 /* 06_21. 合并两个有序链表 */,
+				AA31046A2DA67296002EBA2B /* 07_144. 二叉树的前序遍历 */,
 				AAA9BAF32DA20C76002DD156 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -173,6 +196,7 @@
 				AAAADF632DA3557A00E0B775 /* 04_141. 环形链表 */,
 				AAAADF6E2DA360E900E0B775 /* 05_142. 环形链表 II */,
 				AAAADF792DA36A9D00E0B775 /* 06_21. 合并两个有序链表 */,
+				AA3104692DA67296002EBA2B /* 07_144. 二叉树的前序遍历 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,6 +204,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		AA3104682DA67296002EBA2B /* 07_144. 二叉树的前序遍历 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA31046F2DA67296002EBA2B /* Build configuration list for PBXNativeTarget "07_144. 二叉树的前序遍历" */;
+			buildPhases = (
+				AA3104652DA67296002EBA2B /* Sources */,
+				AA3104662DA67296002EBA2B /* Frameworks */,
+				AA3104672DA67296002EBA2B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AA31046A2DA67296002EBA2B /* 07_144. 二叉树的前序遍历 */,
+			);
+			name = "07_144. 二叉树的前序遍历";
+			packageProductDependencies = (
+			);
+			productName = "07_144. 二叉树的前序遍历";
+			productReference = AA3104692DA67296002EBA2B /* 07_144. 二叉树的前序遍历 */;
+			productType = "com.apple.product-type.tool";
+		};
 		AAA466432DA2971700E4112A /* 02_704. 二分查找 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAA4664A2DA2971700E4112A /* Build configuration list for PBXNativeTarget "02_704. 二分查找" */;
@@ -321,6 +367,9 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					AA3104682DA67296002EBA2B = {
+						CreatedOnToolsVersion = 16.3;
+					};
 					AAA466432DA2971700E4112A = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -361,11 +410,19 @@
 				AAAADF622DA3557A00E0B775 /* 04_141. 环形链表 */,
 				AAAADF6D2DA360E900E0B775 /* 05_142. 环形链表 II */,
 				AAAADF782DA36A9D00E0B775 /* 06_21. 合并两个有序链表 */,
+				AA3104682DA67296002EBA2B /* 07_144. 二叉树的前序遍历 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		AA3104652DA67296002EBA2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AAA466402DA2971700E4112A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -411,6 +468,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		AA31046D2DA67296002EBA2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WZA497Y6EH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA31046E2DA67296002EBA2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WZA497Y6EH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		AAA466482DA2971700E4112A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -649,6 +728,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		AA31046F2DA67296002EBA2B /* Build configuration list for PBXNativeTarget "07_144. 二叉树的前序遍历" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA31046D2DA67296002EBA2B /* Debug */,
+				AA31046E2DA67296002EBA2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		AAA4664A2DA2971700E4112A /* Build configuration list for PBXNativeTarget "02_704. 二分查找" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
